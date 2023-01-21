@@ -61,3 +61,19 @@ h2{
     font-size: 25px;
     color: darkblue;
 }
+#articles li{
+    font-size: 30px;
+    
+}
+ol{
+    list-style:georgian inside;
+    list-style-type: decimal;
+}
+.menu a{
+    text-decoration: none;
+    color: darkblue;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
