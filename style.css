@@ -45,7 +45,7 @@ h2{
     margin:auto;
     margin-bottom: 10px;
 }
-.menu{
+/* .menu{
     list-style: none;
     position:absolute;
     top:10px;
@@ -60,7 +60,28 @@ h2{
     padding-right: 10px;
     font-size: 25px;
     color: darkblue;
+} */
+.menu{
+    position:fixed;
+     top: 0px;
+     width:100%;
+     z-index:20;
+     background-color: aliceblue;
+     margin-top: 0px;
+     height: 40px;
+     padding-top: 15px;
 }
+.list{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    
+}
+.list:hover{
+    font-size: 40px;
+    
+           }
 #articles li{
     font-size: 30px;
     
@@ -76,4 +97,13 @@ ol{
 }
 html{
     scroll-behavior: smooth;
+}
+#videos,#careers,#articles,#contact{
+    padding-top:50px;
+}
+#contact{
+    background-color: gray;
+}
+#contact h3{
+    display: inline;
 }
